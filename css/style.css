@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --mainPink:rgb(239, 71, 111);
+    --mainYellow:rgb(255, 209, 102);
+    --mainGreen:rgb(6, 214, 160);
+    --mainBlue:rgb(17, 138, 178);
+    --mainDarkblue:rgb(7, 59, 76);
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    background-color: var(--mainPink);
+    color: var(--mainBlue);
+}
+
+nav {
+    background-color: var(--mainYellow);
+}
+.nav-link {
+    font-size: 2rem;
+}
+
+.banner-title {
+    color: var(--mainGreen);
+    font-size: 6rem;
+}
+
+.banner-link {
+    font-size: 3rem;
+}
+
+.max-height {
+    min-height: calc(100vh - 126px);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), var(--mainPink)), url(../images/pancake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* 
+.max-height {
+    min-height: calc(100vh - 126px);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), var(--mainPink)), url(../images/logoSVGAsset\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+.single-item {
+    transition: all 0.3 linear;
+
+}
+
+.single-item:hover .store-img {
+    box-shadow: 0 10px 150px rgb(0, 0, 0,);
+    
+}
+
+.img-container {
+    position:relative;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+.img-container:hover {
+    transform: scale(1.2);
+    transition: all 0.3 linear;
+  
+}
+
+.carousel-control-next {
+    color: black;
+}
