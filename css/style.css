@@ -9,6 +9,10 @@
     --mainDarkblue:rgb(7, 59, 76);
 }
 
+.aboutme {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     font-family: 'Lobster', cursive;
     background-color: var(--mainPink);
@@ -71,6 +75,7 @@ nav {
   
 }
 
-.carousel-control-next {
-    color: black;
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
