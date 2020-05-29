@@ -20,7 +20,7 @@ body {
 }
 
 nav {
-    background-color: var(--mainYellow);
+    background-color: var(--mainGreen);
 }
 .nav-link {
     font-size: 2rem;
@@ -35,13 +35,21 @@ nav {
     font-size: 3rem;
 }
 
+/* linear-gradient(to right, rgba(255,0,0,0), var(--mainPink)), */
+
 .max-height {
     min-height: calc(100vh - 126px);
-    background-image: linear-gradient(to right, rgba(255,0,0,0), var(--mainPink)), url(../images/prototypin.JPG);
+    background-image: url(../images/prototypin.JPG);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    animation: moving 75s linear infinite;
+}
+
+@keyframes moving {
+    0%{background-position:0 0;}
+    100%{background-position: -2122px 0;}
 }
 /* 
 .max-height {
