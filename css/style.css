@@ -37,7 +37,7 @@ nav {
 
 .max-height {
     min-height: calc(100vh - 126px);
-    background-image: linear-gradient(to right, rgba(255,0,0,0), var(--mainPink)), url(../images/pancake.jpg);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), var(--mainPink)), url(../images/prototypin.JPG);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
